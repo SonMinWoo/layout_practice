@@ -1,0 +1,182 @@
+:root {
+    --margin-title : 80px;
+    --gray : #CDCDCD;
+}
+
+html {
+    margin : 0px;
+    padding : 0px;
+}
+
+body {
+    background-color : #D2D2D0;
+    margin : 0;
+    padding : 0;
+}
+
+.header__container {
+    width : 100vw;
+    height : 10vh;
+    background: rgb(170,111,255);
+    background: linear-gradient(90deg, rgba(170,111,255,1) 0%, rgba(146,144,251,1) 35%, rgba(116,186,248,1) 100%);
+    z-index : 10;
+    box-shadow: 0px 30px 20px 0px rgba(180,180,180,0.6);
+    display : flex;
+    justify-content : space-between;
+    align-items : flex-end;
+    padding : 0px 10px;
+}
+
+h1, h5, h6 {
+    margin : 0px;
+    padding : 0px;
+}
+
+.title__area {
+    color : white;
+    margin-bottom : 10px;
+    font-size : 50px;
+    margin-left : 25px;
+}
+
+.logo__title2 {
+    position : relative;
+    margin-left : 40px;
+}
+
+.icon__area svg {
+    fill : white;
+    margin-bottom : 30px;
+    width : 50px;
+    height : 50px;
+}
+
+.icon__area svg:nth-child(1) {
+    margin-right : 80px;
+    margin-right : var(--margin-title);
+}
+
+.icon__area svg:nth-child(2) {
+    margin-right : 80px;
+    margin-right : var(--margin-title);
+}
+
+.icon__area svg:nth-child(3) {
+    margin-right : 40px;
+}
+
+.main__container {
+    display : flex;
+    justify-content : center;
+    margin : 0px;
+    padding : 0px;
+}
+
+.main__white {
+   background-color : #FFFFFF; 
+   width : 70vw;
+   height : 92vh;
+   margin : 0px;
+   padding : 0px;
+   z-index : -10;
+   box-shadow: 20px 0 15px rgba(200, 200, 200, 0.4),  -20px 0 15px rgba(200, 200, 200, 0.4);
+}
+
+.title {
+    font-size : 100px;
+    margin-top : 50px;
+    position : absolute;
+    left : 10vw;
+    font-weight : 5000;
+}
+
+.search__container {
+    display : flex;
+    justify-content : space-between;
+    height : 15vh;
+    align-items : flex-end;
+    padding : 0 20px;
+    margin-bottom : 5vh;
+}
+
+.search__container .search__check {
+    fill : #CDCDCD;
+    fill : var(--gray); 
+    width : 50px;
+    height : 50px;
+    margin-right : 3vw;
+}
+
+.search__box {
+    color : #999999;
+    position : relative;
+    font-size : 30px;
+    margin : 0px 3vw 2vh 3vw;
+    width : 80vw;
+    display : flex;
+    justify-content : space-between;
+
+}
+
+.search__check svg {
+    position : block;
+    width : 50px;
+    height : 50px;
+}
+
+h6 {
+    color : #CDCDCD;
+}
+
+hr {
+  position : absolute;
+  width : 73vw;
+  border : 1px solid rgba(170, 170, 170, 0.8);
+
+}
+
+.follow__box {
+    margin : 0px;
+    padding : 0px;
+}
+
+.user__box {
+    display : flex;
+    justify-content : space-around;
+}
+
+.image__box {
+    width : 100px;
+    height : 100px;
+    background-color : #00cc00;
+}
+
+.user__box {
+    margin : 50px 0px 50px -12vw;
+}
+
+.user__area {
+    margin-left : -6vw;
+    margin-right : 10vw;
+    font-size : 30px;
+    display : grid;
+    
+}
+
+.user__friend {
+    font-size : 25px;
+}
+
+.check__area {
+    display : flex;
+    align-items : center;
+}
+
+.check__area svg{
+    fill : #CDCDCD;
+    fill : var(--gray); 
+    width : 50px;
+    height : 50px;
+}
+
+/*# sourceMappingURL=/artisticapp.9a82ccb3.css.map */
