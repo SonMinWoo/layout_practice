@@ -7,7 +7,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "parcel -p 8080 artisticapp.html"
+    "start": "parcel -p 8080 artisticapp.html",
+    "build": "rimraf dist && parcel build ecommerce.html",
+    "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master"
   },
   "dependencies": {
     "postcss-preset-env": "^6.7.0"
@@ -18,5 +20,8 @@
         "stage": 0
       }
     }
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
