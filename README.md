@@ -6,3 +6,6 @@ This repository is to practice layout making with only HTML and CSS!
 
 
 It follows "CSS mater class" from nomad coder 
+
+## Layout Site Link
+https://sonminwoo.github.io/layout_practice/
