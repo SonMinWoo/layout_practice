@@ -1,0 +1,105 @@
+
+html,
+body,
+h1,
+h4{
+    margin: 0;
+    padding : 0;
+}
+
+.header__container {
+    width : 100%;
+    height : 15vh;
+    display : grid;
+    grid-template-columns : 15vh 1fr;
+}
+
+.header__menu {
+    background-color : #353D3F;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.header__top {
+    display : flex;
+    align-items : center;
+}
+
+.header__title {
+    margin-left : 50px;
+}
+
+.main {
+    width : 100%;
+    height : 85vh;
+    display : grid;
+    grid-template-columns : 3.5fr 6.5fr;
+}
+
+.main__text {
+    padding-left : 15vh;
+    display : grid;
+    grid-template-rows : 4.5fr 5.5fr;
+}
+
+.text__upper {
+    display : flex;
+    align-items : flex-end;
+}
+
+.upper__title {
+    color : gray;
+}
+
+.main__title {
+    position : absolute;
+    top : 50vh;
+}
+
+.main__title h1 {
+    font-size : 150px;
+    font-family : sans-serif;
+    font-weight : 900;
+}
+
+.main__bottom {
+    position : relative;
+    top : 200px;
+    color : gray;
+    display : flex;
+    flex-direction : column;
+}
+
+.main__foot {
+    color : black;
+    margin-top : 10vh;
+}
+
+.main__picture {
+    background-image : url("https://picsum.photos/seed/picsum/1000/800.jpg");
+    background-size : cover;
+    background-position : center center;
+    background-repeat : no-repeat;
+    display : flex;
+    flex-direction : column;
+    justify-content : flex-end;
+    flex-wrap : nowrap;
+}
+
+.picture__vertical {
+    position : absolute;
+    top : 40px;
+    align-self : flex-end;
+    writing-mode: vertical-rl;
+    height : 50vh;
+}
+
+.nav__box {
+    background-color : white;
+    width : 10vw;
+    height : 8vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
