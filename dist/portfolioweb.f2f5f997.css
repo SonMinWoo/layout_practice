@@ -96,7 +96,9 @@ h4{
     position : absolute;
     top : 40px;
     align-self : flex-end;
-    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
     height : 30vh;
 
 }
@@ -109,3 +111,5 @@ h4{
     justify-content : center;
     align-items : center;
 }
+
+/*# sourceMappingURL=/portfolioweb.f2f5f997.css.map */
