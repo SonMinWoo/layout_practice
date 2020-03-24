@@ -98,7 +98,6 @@ h5 {
 .text__nav {
     background-color : white;
     display : flex;
-    place-content : center;
     justify-content : space-between;
 }
 
