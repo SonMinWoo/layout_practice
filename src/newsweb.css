@@ -135,7 +135,11 @@ container:nth-child(11) {
 }
 
 .side__back {
-    background-color : #999999;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(-45deg, #555555, #555555 5%, 
+                        transparent 5%, transparent 50%, #555555 50%, 
+                        #555555 55%, transparent 55%, transparent);
+    background-size: 40px 40px;
 }
 
 .footer {
