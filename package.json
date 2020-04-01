@@ -7,7 +7,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "parcel -p 8080 src/ecommerce2.html",
+    "start": "parcel -p 8080 src/dynamicblog.html",
     "build": "rimraf dist && parcel build src/index.html --out-dir docs --public-url ./",
     "deploy": "npm run build && git add . && git commit -a -m 'latest build' && git push origin master"
   },
